@@ -6,6 +6,7 @@ export const TopPage: React.FC = memo(() => {
       <main>
         <h1>TOP</h1>
         <div>こんにちは</div>
+        <img src="logo192.png" alt="reactのロゴ" />
       </main>
     </>
   );
