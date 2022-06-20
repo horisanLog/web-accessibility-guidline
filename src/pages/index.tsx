@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 
 export const TopPage: React.FC = memo(() => {
-
   return (
     <>
       {/* ドキュメントにはmainランドマークが1つ含まれていなければなりません */}
