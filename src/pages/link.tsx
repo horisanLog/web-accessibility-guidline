@@ -9,17 +9,17 @@ export const LinkPage: React.FC = memo(() => {
           <h2>メニュー</h2>
           <ul>
             <li>
-              <a href="#contentList">コンテンツ一覧</a>
+              <a href="#content">コンテンツ一覧</a>
             </li>
             <li>
-              <a href="#menuList">メニュー一覧</a>
+              <a href="#menu">メニュー一覧</a>
             </li>
             <li>
               <a href="#footer">サイト情報</a>
             </li>
           </ul>
         </nav>
-        <aside id="userList" role="complementary" aria-label="使用上の注意">
+        <aside id="content" role="complementary" aria-label="コンテンツ一覧">
           <h2>コンテンツ一覧</h2>
           <ul>
             <li>A</li>
@@ -27,7 +27,7 @@ export const LinkPage: React.FC = memo(() => {
             <li>C</li>
           </ul>
         </aside>
-        <aside id="entryList" role="complementary" aria-label="使用上">
+        <aside id="menu" role="complementary" aria-label="メニュー一覧">
           <h2>メニュー一覧</h2>
           <ul>
             <li>A</li>
