@@ -13,6 +13,11 @@ export const TopPage: React.FC = memo(() => {
         <div style={{ backgroundColor: "#F7F5F5", color: "#2864F0" }}>
           こんにちは
         </div>
+        <div>
+          {/* ラベルの確保 */}
+          <label htmlFor="name">名前を入れてください:</label>
+          <input type="text" id="name" name="name" />
+        </div>
       </main>
     </>
   );
