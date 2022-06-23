@@ -18,6 +18,9 @@ export const TopPage: React.FC = memo(() => {
           <label htmlFor="name">名前を入れてください:</label>
           <input type="text" id="name" name="name" />
         </div>
+        {/* https://waic.jp/docs/WCAG21/#target-size
+        Success Criterion 2.5.5 Target Size */}
+        <button style={{ width: "44px", height: "44px" }}>登録</button>
       </main>
     </>
   );
