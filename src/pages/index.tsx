@@ -21,6 +21,7 @@ export const TopPage: React.FC = memo(() => {
         {/* https://waic.jp/docs/WCAG21/#target-size
         Success Criterion 2.5.5 Target Size */}
         <button style={{ width: "44px", height: "44px" }}>登録</button>
+        <section aria-live="assertive" aria-atomic="true"></section>
       </main>
     </>
   );
